@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.array(['jan','feb','march','aprl'])
+y1=np.array([189,140,126,170])
+y2=np.array([150,120,155,136])
+y3=np.array([185,185,134,126])
+plt.scatter(x,y1,color='pink')
+plt.scatter(x,y2,color='yellow')
+plt.scatter(x,y3,color='blue')
+plt.title("sales data",loc="center")
+plt.xlabel("months of yr")
+plt.ylabel("sales of segments")
+plt.show()
