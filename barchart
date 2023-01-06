@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+data={'walking':29,'cycling':15,'car':35,'bus':18,'train':3}
+x=list(data.keys())
+y=list(data.values())
+fig=plt.figure(figsize=(10,5))
+plt.bar(x,y,color='green',width=0.1)
+plt.xlabel("mode of transportation")
+plt.ylabel("freequency")
+plt.title("mode of transportation of students")
+plt.show()
